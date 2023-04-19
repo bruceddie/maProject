@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-bar{
+    background: #4A0F84;
+    color: #fff;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 38px;
+    
+}
+.nav-bar ul li{
+  padding: 5px 50px;
+  cursor: pointer;
+}
+.nav-bar ul li:hover{
+    color: yellow;
+  }
+.nav-bar img{
+    border: 1px solid #fff;
+    width: 125px;
+}
